@@ -8,3 +8,5 @@ file_handler.setFormatter(logging.Formatter(fmt="%(lineno)s---%(asctime)s---%(le
 logger.addHandler(file_handler)
 
 logging.info("this is a test")
+
+logging.error("this is a error")
